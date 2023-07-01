@@ -1,0 +1,62 @@
+{
+  "common": [
+    {
+      "package": "1 Hora",
+      "price": 5
+    },
+    {
+      "package": "3 Horas",
+      "price": 12
+    },
+    {
+      "package": "5 Horas",
+      "price": 20
+    },
+    {
+      "package": "10 Horas",
+      "price": 38
+    },
+    {
+      "package": "20 Horas",
+      "price": 75
+    },
+    {
+      "package": "Corujinha*",
+      "price": 15
+    },
+    {
+      "package": "Corujão*",
+      "price": 32
+    }
+  ],
+  "vip": [
+    {
+      "package": "1 Hora",
+      "price": 7
+    },
+    {
+      "package": "3 Horas",
+      "price": 18
+    },
+    {
+      "package": "5 Horas",
+      "price": 30
+    },
+    {
+      "package": "10 Horas",
+      "price": 55
+    },
+    {
+      "package": "20 Horas",
+      "price": 95
+    },
+    {
+      "package": "Corujinha*",
+      "price": 22
+    },
+    {
+      "package": "Corujão*",
+      "price": 50
+    }
+  ]
+}

@@ -16,6 +16,7 @@ export function Header() {
   const { ref, inView } = useInView({
     threshold: 0,
     delay: 500,
+    rootMargin: '-12px',
   })
 
   return (

@@ -18,6 +18,18 @@ export const GlobalStyles = createGlobalStyle(
       height: 100%;
     }
 
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: ${theme.colors.red};
+    }
+
+    ::-webkit-scrollbar-track {
+      background: ${theme.colors.gray};
+    }
+
     body {
       padding: 3rem 2.5rem;
       display: flex;
@@ -26,6 +38,7 @@ export const GlobalStyles = createGlobalStyle(
       min-height: 100%;
       background: ${theme.colors.black};
       color: ${theme.colors.whiteSmoke};
+      scroll-behavior: smooth;
 
       @media (max-width: 350px) {
         padding: 3rem 1.5rem;
