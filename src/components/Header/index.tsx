@@ -27,6 +27,7 @@ export function Header() {
           href="https://wa.me/551156234874"
           target="_blank"
           rel="noreferrer"
+          aria-label="Ir para o whatsapp da lgx"
         >
           <RiWhatsappFill />
         </Styled.SocialMediaCard>
@@ -34,6 +35,7 @@ export function Header() {
           href="https://www.instagram.com/lgxlan/"
           target="_blank"
           rel="noreferrer"
+          aria-label="Ir para o instagram da lgx"
         >
           <RiInstagramFill />
         </Styled.SocialMediaCard>
@@ -41,6 +43,7 @@ export function Header() {
           href="https://www.facebook.com/lgxlan"
           target="_blank"
           rel="noreferrer"
+          aria-label="Ir para o facebook da lgx"
         >
           <RiFacebookCircleFill />
         </Styled.SocialMediaCard>
@@ -48,6 +51,7 @@ export function Header() {
           href="tel=+551156234874"
           target="_blank"
           rel="noreferrer"
+          aria-label="Fazer ligação para a lgx"
         >
           <RiPhoneFill />
         </Styled.SocialMediaCard>

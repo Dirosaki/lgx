@@ -22,6 +22,7 @@ export function ScrollToTopButton({ visible }: ScrollToTopButtonProps) {
     <Styled.ScrollToTopButton
       type="button"
       onClick={handleScrollToTop}
+      aria-label="Voltar para o topo"
       ref={animatedElementRef}
       isLeaving={!visible}
     >

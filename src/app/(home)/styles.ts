@@ -2,6 +2,8 @@ import Link from 'next/link'
 import styled, { css } from 'styled-components'
 
 export const Navigation = styled.nav`
+  width: 100%;
+
   ul {
     display: flex;
     flex-direction: column;
@@ -12,7 +14,7 @@ export const Navigation = styled.nav`
 export const CustomLink = styled(Link)(
   ({ theme }) => css`
     padding: 0 0.875rem;
-    height: 42px;
+    height: 2.625rem;
     display: flex;
     align-items: center;
     justify-content: center;

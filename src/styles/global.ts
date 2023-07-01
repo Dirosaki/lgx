@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle(
       padding: 3rem 2.5rem;
       display: flex;
       flex-direction: column;
+      align-items: center;
       min-height: 100%;
       background: ${theme.colors.black};
       color: ${theme.colors.whiteSmoke};
@@ -33,8 +34,11 @@ export const GlobalStyles = createGlobalStyle(
 
     main {
       flex: 1;
+      width: 100%;
+      max-width: 25rem;
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
 
     button {
