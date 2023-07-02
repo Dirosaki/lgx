@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 
-export function useAnimatedUnmounted(visible: boolean) {
+export function useAnimatedUnmounted<T extends HTMLElement>(visible: boolean) {
   const [shouldRender, setShouldRender] = useState(visible)
 
-  const animatedElementRef = useRef<HTMLButtonElement | null>(null)
+  const animatedElementRef = useRef<T | null>(null)
 
   useEffect(() => {
     if (visible) {

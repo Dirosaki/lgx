@@ -8,7 +8,8 @@ type ScrollToTopButtonProps = {
 }
 
 export function ScrollToTopButton({ visible }: ScrollToTopButtonProps) {
-  const { shouldRender, animatedElementRef } = useAnimatedUnmounted(visible)
+  const { shouldRender, animatedElementRef } =
+    useAnimatedUnmounted<HTMLButtonElement>(visible)
 
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })

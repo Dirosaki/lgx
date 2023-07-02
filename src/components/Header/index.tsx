@@ -15,6 +15,7 @@ import * as Styled from './styles'
 export function Header() {
   const { ref, inView } = useInView({
     threshold: 0,
+    initialInView: true,
     delay: 500,
     rootMargin: '-12px',
   })
@@ -49,7 +50,7 @@ export function Header() {
           <RiFacebookCircleFill />
         </Styled.SocialMediaCard>
         <Styled.SocialMediaCard
-          href="tel=+551156234874"
+          href="tel:+551156234874"
           target="_blank"
           rel="noreferrer"
           aria-label="Fazer ligação para a lgx"
