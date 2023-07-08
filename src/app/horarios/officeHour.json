@@ -1,0 +1,13 @@
+{
+  "sp": [
+    { "title": "Segunda a quinta", "hour": "11:00 às 22:00" },
+    { "title": "Sexta e sábado", "hour": "11:00 às 21:30" },
+    { "title": "Corujão*", "hour": "22:00 às 06:00" },
+    { "title": "Domingo e feriados", "hour": "14:00 às 20:00" }
+  ],
+  "abc": [
+    { "title": "Segunda a sexta", "hour": "09:00 às 22:00" },
+    { "title": "Sábado", "hour": "10:00 às 22:00" },
+    { "title": "Feriados", "hour": "10:00 às 18:00" }
+  ]
+}

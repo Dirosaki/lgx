@@ -11,6 +11,6 @@ export const Footer = styled.footer`
   margin-top: 2rem;
 
   span {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 `
