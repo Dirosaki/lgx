@@ -15,7 +15,7 @@ export default function Home() {
         </li>
         <li>
           <Styled.CustomLink href="configuracoes">
-            Configurações/Setups
+            Configs/Setups
           </Styled.CustomLink>
         </li>
         <li>

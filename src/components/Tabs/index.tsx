@@ -12,8 +12,12 @@ export const Tabs = ({ children }: TabsProps) => {
         <Styled.Tab value="sp">Unidade SP</Styled.Tab>
         <Styled.Tab value="abc">Unidade ABC</Styled.Tab>
       </Styled.List>
-      <Styled.Content value="sp">{children[0]}</Styled.Content>
-      <Styled.Content value="abc">{children[1]}</Styled.Content>
+      <Styled.Content value="sp" tabIndex={-1}>
+        {children[0]}
+      </Styled.Content>
+      <Styled.Content value="abc" tabIndex={-1}>
+        {children[1]}
+      </Styled.Content>
     </Styled.Root>
   )
 }

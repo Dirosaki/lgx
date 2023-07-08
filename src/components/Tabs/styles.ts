@@ -26,6 +26,10 @@ export const Tab = styled(TabsPrimitive.TabsTrigger)(
     &[data-state='active'] {
       color: ${theme.colors.whiteSmoke};
     }
+
+    &:focus-visible {
+      box-shadow: 0 0 0 2px ${theme.colors.red};
+    }
   `,
 )
 
