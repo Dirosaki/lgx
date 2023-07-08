@@ -25,7 +25,7 @@ export function ScrollToTopButton({ visible }: ScrollToTopButtonProps) {
       onClick={handleScrollToTop}
       aria-label="Voltar para o topo"
       ref={animatedElementRef}
-      isLeaving={!visible}
+      $isLeaving={!visible}
     >
       <RiArrowUpLine size={24} />
     </Styled.ScrollToTopButton>

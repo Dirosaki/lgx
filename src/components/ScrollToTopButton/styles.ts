@@ -19,11 +19,11 @@ const animateOut = keyframes({
 })
 
 type ScrollToTopButtonProps = {
-  isLeaving: boolean
+  $isLeaving: boolean
 }
 
 export const ScrollToTopButton = styled.button<ScrollToTopButtonProps>(
-  ({ theme, isLeaving }) => css`
+  ({ theme, $isLeaving }) => css`
     position: fixed;
     right: 1rem;
     bottom: 1rem;
@@ -39,7 +39,7 @@ export const ScrollToTopButton = styled.button<ScrollToTopButtonProps>(
       box-shadow: 0 0 0 2px ${theme.colors.whiteSmoke};
     }
 
-    ${isLeaving &&
+    ${$isLeaving &&
     css`
       animation: ${animateOut} 0.2s forwards;
     `}
