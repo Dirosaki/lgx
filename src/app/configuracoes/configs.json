@@ -5,7 +5,7 @@
       "configs": [
         { "title": "Processador", "description": "Intel Core i5 8400" },
         { "title": "Memória", "description": "8GB DDR4" },
-        { "title": "Placa de vídeo", "description": "GTX 1050 TI" },
+        { "title": "Placa de vídeo", "description": "RTX 3060" },
         { "title": "Monitor", "description": "24,5” 144Hz" }
       ]
     },
@@ -14,7 +14,7 @@
       "configs": [
         { "title": "Processador", "description": "Intel Core i5 4460" },
         { "title": "Memória", "description": "8GB DDR4" },
-        { "title": "Placa de vídeo", "description": "GTX 1050 TI" },
+        { "title": "Placa de vídeo", "description": "GTX 750 TI" },
         { "title": "Monitor", "description": "19.5” 75Hz" }
       ]
     }
